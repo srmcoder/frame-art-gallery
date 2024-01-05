@@ -18,22 +18,19 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
 </head>
 <body>
-    <!-- Wrapper -->
-    <div class="row container-fluid position-absolute">
+    <!-- wrapper -->
+    <div class="row container-fluid position-absolute" id="wrapper" name="wrapper">
         <div class="col-md-12 mx-3">
-        <h1 class="d-none">About</h1> 
 
-        <!-- Header -->
-        <div class="row">
-            <div class="col text-center">
-                <a href="./index.html">
-                    <img class="img-fluid w-auto" src="./wpimages/brand.gif" alt="Frame Art Gallery"></a><br>
+            <!-- header -->
+            <div class="row">
+                <div class="col text-center">
+                    <a href="./index.html">
+                    <img class="img-fluid w-auto" src="./wpimages/brand.gif" alt="Frame Art Gallery"></a>
+                    <br>
+                </div>
             </div>
-        </div>
-
-        <!-- Navigation -->
-        <nav class="navbar-fluid navbar-expand-lg navbar-dark bg-dark mx-auto mt-0 rounded">
-            <div class="container-fluid mb-3">
+            <nav class="navbar-fluid navbar-expand-lg navbar-dark bg-dark mx-auto mb-3 rounded">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-fluid navbar-collapse" id="navbarSupportedContent">
@@ -51,51 +48,57 @@
                         <li class="nav-item">
                             <a class="nav-link fw-bold mx-5" href="./galleries.html">Galleries</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-5" href="./index.html#framing-ideas">Framing Ideas</a>
+                        </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-            <!-- Content -->
-            <div class="row">
-                <div class="col-md-5 text-center">
-                    <p class="fw-bold">
-                        Meet the owner, Sheri Cox
-                        <img class="img-fluid float-front" src="./wpimages/sheri1.jpg" alt="Sheri Cox">
-                    </p>
-                </div>
-                <div class="col-md-7 text-left">
-                    <p class="fw-normal">                              
-                        Discover the captivating allure you've been seeking at Frame-Art Gallery, a community-based and independent institution committed to delivering unparalleled Art and Frame solutions.
-                    </p>
-                    <p class="fw-normal">
-                        With a commitment to providing unmatched Art and Frame solutions, we have been serving the Richmond area since 1975. During this time, Frame-Art Gallery has established itself as a trusted source for all your art and framing needs.
-                    </p>
-                    <p class="fw-normal">
+            </nav>
+
+            <!-- content -->
+            <div class="container" id="content" name="conten">
+                <div class="row">
+                    <div class="col-md-5 text-center">
+                        <p class="fw-bold">
+                            Meet the owner, Sheri Cox
+                            <img class="img-fluid float-front" src="./wpimages/sheri1.jpg" alt="Sheri Cox">
+                        </p>
+                    </div>
+                    <div class="col-md-7 text-left">
+                        <p class="fw-normal">                              
+                            Discover the captivating allure you've been seeking at Frame-Art Gallery, a community-based and independent institution committed to delivering unparalleled Art and Frame solutions.
+                        </p>
+                        <p class="fw-normal">
+                            With a commitment to providing unmatched Art and Frame solutions, we have been serving the Richmond area since 1975. During this time, Frame-Art Gallery has established itself as a trusted source for all your art and framing needs.
+                        </p>
+                        <p class="fw-normal">
                         We are proud to be a Certified Micro-SWaM vendor in Virginia, demonstrating our dedication to excellence and ensuring that our valued customers receive the highest quality services and products.
-                    </p>
-                    <div class="align-items-center justify-content-center text-center">
-                        <a class="link-dark" href="https://sbsd.virginia.gov/certification-division/swam/">
-                            <img class="img-fluid m-auto" src="./wpimages/SWaM-Certification-logo.jpg" alt="SWaM logo" />
-                        </a>
+                        </p>
+                        <div class="align-items-center justify-content-center text-center">
+                            <a class="link-dark" href="https://sbsd.virginia.gov/certification-division/swam/">
+                                <img class="img-fluid m-auto" src="./wpimages/SWaM-Certification-logo.jpg" alt="SWaM logo" />
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div> <!-- content -->
 
-            </div>
-            <div class="row align-items-center justify-content-center text-center">
-                <p class="text-center">
-                    <a class="link-dark"href="#">Top of Page</a>
-                    <br><br> 
-                </p>
-                <div class="container-fluid bg-dark text-light fw-normal fs-6 text-center rounded">
-                    &copy; Copyright 2024, Sherrie McNulty
-
-
-
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="fw-bold">
+                        <a class="link-dark" href="#">Top of Page</a> 
+                    </p>
                 </div>
             </div>
-        
-
-    </div>
+            
+            <!-- footer -->
+            <div name="copyright" class="container-fluid bg-dark text-light fw-normal fs-6 text-center rounded"> 
+                <p class="fw-normal">
+                    &copy; Copyright 2024
+                </p>
+            </div>
+            
+        </div> <!-- wrapper col -->
+    </div> <!-- wrapper row -->
 </body>
 </html>
