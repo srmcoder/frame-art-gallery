@@ -1,3 +1,6 @@
 .gallery-img {
     max-height: 350px;
 }
+.gallery-img-lg {
+    max-height: 400px;
+}
