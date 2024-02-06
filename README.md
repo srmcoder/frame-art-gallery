@@ -1,2 +1,7 @@
+
 # frame-art-gallery
-Website for Frame-Art Gallery
+
+This is a code repository for **[Frame-Art-Gallery](http://frame-art-gallery.com).**<br>
+
+**Author:** [Sherrie McNulty](https://srmcoder.github.io)<br>
+
