@@ -1,3 +1,8 @@
-.gallery-img {
+.img-med {
     max-height: 300px;
+    width: auto;
+}
+.img-brand {
+    max-width: 125px;
+    height: auto;
 }
