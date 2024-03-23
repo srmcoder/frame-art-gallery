@@ -1,8 +1,12 @@
-.img-med {
-    max-height: 300px;
-    width: auto;
-}
 .img-brand {
     max-width: 125px;
     height: auto;
+}
+.img-medium {
+    max-height: 350px;
+    width: auto;
+}
+.img-small {
+    max-height: 300px;
+    width: auto;
 }
